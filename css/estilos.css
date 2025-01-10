@@ -1,0 +1,294 @@
+/* assets/css/estilos.css */
+
+/* Reset CSS para eliminar estilos predeterminados inconsistentes entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales del cuerpo */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+}
+.fila
+{
+    display: flex;
+}
+/* Estilos del contenedor principal */
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    border-bottom: 5px solid #e8491d;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+/* Estilos de navegación */
+nav {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #e8491d;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 5px solid #e8491d;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+/* Estilos de los títulos */
+h1, h2, h3 {
+    margin-bottom: 20px;
+    color: #35424a;
+}
+
+/* Estilos de los párrafos */
+p {
+    margin-bottom: 15px;
+}
+
+/* Estilos de los enlaces */
+a {
+    color: #35424a;
+    text-decoration: none;
+    transition: color 0.3s;
+    text-align: center;
+}
+
+a:hover {
+    color: #e8491d;
+}
+
+/* Estilos de las tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #dddddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #35424a;
+    color: #ffffff;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Estilos de los formularios */
+form {
+    background-color: #ffffff;
+    padding: 25px;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"],
+form input[type="time"],
+form textarea,
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+form input[type="submit"],
+form button {
+    background-color: #35424a;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+form input[type="submit"]:hover,
+form button:hover {
+    background-color: #e8491d;
+}
+
+/* Estilos para botones */
+button {
+    background-color: #35424a;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e8491d;
+}
+
+/* Estilos de listas */
+ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+ul li {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+
+ul li a {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.titulo
+{
+    color: #ffffff;
+}
+/* Estilos de imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.listado
+{
+width: 50%;
+align-items: center;
+align-content: center;
+align-self: center;
+}
+/* Estilos de mensajes de error y éxito */
+.error {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.success {
+    color: green;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Estilos de los comentarios */
+.comment {
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.comment strong {
+    color: #35424a;
+}
+
+.comment em {
+    color: #777;
+    font-size: 0.9em;
+}
+
+/* Estilos de la paginación */
+.pagination {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pagination a, .pagination span {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 0 5px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    color: #35424a;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.pagination a:hover {
+    background-color: #e8491d;
+    color: #ffffff;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    form input[type="submit"],
+    form button,
+    button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    table, th, td {
+        font-size: 0.9em;
+    }
+}
